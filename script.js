@@ -1,3 +1,6 @@
+/*
+   @https://github.com/jakemadness/inaccurate-interval
+*/
 var inaccurateInterval = function(callback, min, max) {
    var self        = this;
    self.callback   = callback;
