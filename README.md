@@ -1,5 +1,5 @@
 # Inaccurate Interval
-Call a callback between 2 times in Javascript
+Call a function repeatedly at random times.
 
 ## Example
 ```JS
