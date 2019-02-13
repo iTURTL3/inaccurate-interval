@@ -1,5 +1,5 @@
 /*
-   @https://github.com/jakemadness/inaccurate-interval/tree/master/javascript
+   @https://github.com/jakemadness/inaccurate-interval
 */
 window.inaccurateInterval = function(callback, min, max) {
    var self        = this;
