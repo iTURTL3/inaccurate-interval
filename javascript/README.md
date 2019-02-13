@@ -8,12 +8,12 @@ var interval = new window.inaccurateInterval(function() {
 }, 10000, 20000);
 ```
 
-## Stop interval
+**Stop Interval**
 ```JS
 interval.stop();
 ```
 
-## Restart interval
+**Restart Interval**
 ```JS
 interval.start();
 ```
