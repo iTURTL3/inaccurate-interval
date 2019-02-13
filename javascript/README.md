@@ -1,19 +1,19 @@
 # Inaccurate Interval
 Call a function repeatedly between 2 times.
 
-## Example: Console log "hello world" every 10 - 20s
+## Example
 ```JS
 var interval = new inaccurateInterval(function() {
    console.log('hello world');
 }, 10000, 20000);
 ```
 
-## Example: Stop interval
+## Stop interval
 ```JS
 interval.stop();
 ```
 
-## Example: Restart interval
+## Restart interval
 ```JS
 interval.start();
 ```
