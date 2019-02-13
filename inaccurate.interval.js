@@ -10,20 +10,22 @@ window.inaccurateInterval = function(callback, min, max) {
       return Math.random() * (max - min) + min;
    };
    self.next = function() {
-      if ( self.running ) {
-         self.timeout = setTimeout(function() {
-            self.callback();
-            self.next();
-         }, self.randomTime());
-      }
+      self.timeout = setTimeout(function() {
+         self.callback();
+         self.next();
+      }, self.randomTime());
    };
    self.start = function() {
-      self.running = true;
-      self.next();
+      if ( !self.running ) {
+         self.running = true;
+         self.next();
+      }
    };
    self.stop = function() {
-      clearTimeout(self.timeout);
-      self.running = false;
+      if ( self.running ) {
+         clearTimeout(self.timeout);
+         self.running = false;
+      }
    };
    self.start();
 };
