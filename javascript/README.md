@@ -3,7 +3,7 @@ Call a function repeatedly between 2 times.
 
 ## Example
 ```JS
-var interval = new inaccurateInterval(function() {
+var interval = new window.inaccurateInterval(function() {
    console.log('hello world');
 }, 10000, 20000);
 ```
