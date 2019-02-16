@@ -1,5 +1,5 @@
 # Inaccurate Interval
-Call a function repeatedly between 2 times.
+Call a function repeatedly between 2 times in JavaScript.
 
 ## Example
 ```JS
