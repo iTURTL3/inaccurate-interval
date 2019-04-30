@@ -12,8 +12,3 @@ var interval = new window.inaccurateInterval(function() {
 ```JS
 interval.stop();
 ```
-
-**Restart Interval**
-```JS
-interval.start();
-```
